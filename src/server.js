@@ -423,25 +423,19 @@ app.get("/setup/api/status", requireSetupAuth, async (_req, res) => {
       value: "openai",
       label: "OpenAI",
       hint: "API key",
-      options: [
-        { value: "openai-api-key", label: "OpenAI API key" },
-      ],
+      options: [{ value: "openai-api-key", label: "OpenAI API key" }],
     },
     {
       value: "anthropic",
       label: "Anthropic",
       hint: "API key",
-      options: [
-        { value: "apiKey", label: "Anthropic API key" },
-      ],
+      options: [{ value: "apiKey", label: "Anthropic API key" }],
     },
     {
       value: "google",
       label: "Google",
       hint: "API key",
-      options: [
-        { value: "gemini-api-key", label: "Google Gemini API key" },
-      ],
+      options: [{ value: "gemini-api-key", label: "Google Gemini API key" }],
     },
     {
       value: "openrouter",
@@ -475,10 +469,10 @@ app.get("/setup/api/status", requireSetupAuth, async (_req, res) => {
     {
       value: "minimax",
       label: "MiniMax",
-      hint: "M2.1 (recommended)",
+      hint: "M2.7 (recommended)",
       options: [
-        { value: "minimax-global-api", label: "MiniMax M2.1" },
-        { value: "minimax-global-api-lightning", label: "MiniMax M2.1 Lightning" },
+        { value: "minimax-global-api", label: "MiniMax M2.7" },
+        { value: "minimax-global-api-lightning", label: "MiniMax M2.7 Lightning" },
       ],
     },
     {
